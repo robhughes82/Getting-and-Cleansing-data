@@ -1,1 +1,73 @@
+Getting and Cleansing data course project
+Codebook - describing all the variables in the final_data text file which is the result of the run_analysis.R script
 
+Column number Column Name
+[1] "activityid" - the unique identifier for each of the 6 activities, a number between 1 and 6                                                      
+ [2] "subjectid" - the unique identifier for each of the 30 subjects, a number between 1 and 30                                                       
+ [3] "Time_BodyAccelerometer_Mean-X" - the mean value of all the results for Time/Body/Accelerometer for the X axial                                  
+ [4] "Time_BodyAccelerometer_Mean-Y" - the mean value of all the results for Time/Body/Accelerometer for the Y axial                                      
+ [5] "Time_BodyAccelerometer_Mean-Z" - the mean value of all the results for Time/Body/Accelerometer for the Z axial                                       
+ [6] "Time_BodyAccelerometer_Standard_Deviation-X" - the std value of all the results for Time/Body/Accelerometer for the X axial                         
+ [7] "Time_BodyAccelerometer_Standard_Deviation-Y" - the std value of all the results for Time/Body/Accelerometer for the Y axial                         
+ [8] "Time_BodyAccelerometer_Standard_Deviation-Z" - the std value of all the results for Time/Body/Accelerometer for the Z axial                         
+ [9] "Time_GravityAccelerometer_Mean-X" - the mean value of all the results for Time/Gravity/Accelerometer for the X axial                                    
+[10] "Time_GravityAccelerometer_Mean-Y" - the mean value of all the results for Time/Gravity/Accelerometer for the Y axial                                    
+[11] "Time_GravityAccelerometer_Mean-Z" - the mean value of all the results for Time/Gravity/Accelerometer for the Z axial                                    
+[12] "Time_GravityAccelerometer_Standard_Deviation-X" - the std value of all the results for Time/Gravity/Accelerometer for the X axial                      
+[13] "Time_GravityAccelerometer_Standard_Deviation-Y" - the std value of all the results for Time/Gravity/Accelerometer for the Y axial                      
+[14] "Time_GravityAccelerometer_Standard_Deviation-Z" - the std value of all the results for Time/Gravity/Accelerometer for the Z axial                      
+[15] "Time_BodyAccelerometer_Jerk_Mean-X" - the mean value of all the results for Time/Body/Accelerometer Jerk for the X axial                                  
+[16] "Time_BodyAccelerometer_Jerk_Mean-Y" - the mean value of all the results for Time/Body/Accelerometer Jerk for the Y axial                                  
+[17] "Time_BodyAccelerometer_Jerk_Mean-Z" - the mean value of all the results for Time/Body/Accelerometer Jerk for the Z axial                                  
+[18] "Time_BodyAccelerometer_Jerk_Standard_Deviation-X" - the std value of all the results for Time/Body/Accelerometer Jerk for the X axial                    
+[19] "Time_BodyAccelerometer_Jerk_Standard_Deviation-Y" - the std value of all the results for Time/Body/Accelerometer Jerk for the Y axial                    
+[20] "Time_BodyAccelerometer_Jerk_Standard_Deviation-Z" - the std value of all the results for Time/Body/Accelerometer Jerk for the Z axial                    
+[21] "Time_BodyGyroscope_Mean-X" - the mean value of all the results for Time/Body/Gyroscope for the X axial                                           
+[22] "Time_BodyGyroscope_Mean-Y" - the mean value of all the results for Time/Body/Gyroscope for the Y axial                                           
+[23] "Time_BodyGyroscope_Mean-Z" - the mean value of all the results for Time/Body/Gyroscope for the Z axial                                           
+[24] "Time_BodyGyroscope_Standard_Deviation-X" - the std value of all the results for Time/Body/Gyroscope for the X axial                             
+[25] "Time_BodyGyroscope_Standard_Deviation-Y" - the std value of all the results for Time/Body/Gyroscope for the Y axial                             
+[26] "Time_BodyGyroscope_Standard_Deviation-Z" - the std value of all the results for Time/Body/Gyroscope for the Z axial                             
+[27] "Time_BodyGyroscope_Jerk_Mean-X" - the mean value of all the results for Time/Body/Gyroscope Jerk for the X axial                                      
+[28] "Time_BodyGyroscope_Jerk_Mean-Y" - the mean value of all the results for Time/Body/Gyroscope Jerk for the Y axial                                      
+[29] "Time_BodyGyroscope_Jerk_Mean-Z" - the mean value of all the results for Time/Body/Gyroscope Jerk for the Z axial                                      
+[30] "Time_BodyGyroscope_Jerk_Standard_Deviation-X" - the std value of all the results for Time/Body/Gyroscope Jerk for the X axial                        
+[31] "Time_BodyGyroscope_Jerk_Standard_Deviation-Y" - the std value of all the results for Time/Body/Gyroscope Jerk for the Y axial                        
+[32] "Time_BodyGyroscope_Jerk_Standard_Deviation-Z" - the std value of all the results for Time/Body/Gyroscope Jerk for the Z axial                        
+[33] "Time_BodyAccelerometer_Magnitude_Mean" - the mean value of all the results for Time/Body/Accelerometer for the X axial                               
+[34] "Time_BodyAccelerometer_Magnitude_Standard_Deviation" - the mean value of all the results for Time/Body/Accelerometer for the X axial                 
+[35] "Time_GravityAccelerometer_Magnitude_Mean" - the mean value of all the results for Time/Body/Accelerometer for the magnitude                            
+[36] "Time_GravityAccelerometer_Magnitude_Standard_Deviation" - the mean value of all the results for Time/Body/Accelerometer for the X axial              
+[37] "Time_BodyAccelerometer_Jerk_Magnitude_Mean" - the mean value of all the results for Time/Body/Accelerometer for the X axial                          
+[38] "Time_BodyAccelerometer_Jerk_Magnitude_Standard_Deviation" - the mean value of all the results for Time/Body/Accelerometer for the X axial            
+[39] "Time_BodyGyroscope_Magnitude_Mean" - the mean value of all the results for Time/Body/Accelerometer for the X axial                                   
+[40] "Time_BodyGyroscope_Magnitude_Standard_Deviation" - the mean value of all the results for Time/Body/Accelerometer for the X axial                     
+[41] "Time_BodyGyroscope_Jerk_Magnitude_Mean" - the mean value of all the results for Time/Body/Accelerometer for the X axial                              
+[42] "Time_BodyGyroscope_Jerk_Magnitude_Standard_Deviation" - the mean value of all the results for Time/Body/Accelerometer for the X axial                
+[43] "Frequency_BodyAccelerometer_Mean-X" - the mean value of all the results for Time/Body/Accelerometer for the X axial                                  
+[44] "Frequency_BodyAccelerometer_Mean-Y" - the mean value of all the results for Time/Body/Accelerometer for the X axial                                  
+[45] "Frequency_BodyAccelerometer_Mean-Z" - the mean value of all the results for Time/Body/Accelerometer for the X axial                                  
+[46] "Frequency_BodyAccelerometer_Standard_Deviation-X" - the mean value of all the results for Time/Body/Accelerometer for the X axial                    
+[47] "Frequency_BodyAccelerometer_Standard_Deviation-Y" - the mean value of all the results for Time/Body/Accelerometer for the X axial                    
+[48] "Frequency_BodyAccelerometer_Standard_Deviation-Z" - the mean value of all the results for Time/Body/Accelerometer for the X axial                    
+[49] "Frequency_BodyAccelerometer_Jerk_Mean-X" - the mean value of all the results for Time/Body/Accelerometer for the X axial                             
+[50] "Frequency_BodyAccelerometer_Jerk_Mean-Y" - the mean value of all the results for Time/Body/Accelerometer for the X axial                             
+[51] "Frequency_BodyAccelerometer_Jerk_Mean-Z" - the mean value of all the results for Time/Body/Accelerometer for the X axial                             
+[52] "Frequency_BodyAccelerometer_Jerk_Standard_Deviation-X" - the mean value of all the results for Time/Body/Accelerometer for the X axial               
+[53] "Frequency_BodyAccelerometer_Jerk_Standard_Deviation-Y" - the mean value of all the results for Time/Body/Accelerometer for the X axial               
+[54] "Frequency_BodyAccelerometer_Jerk_Standard_Deviation-Z" - the mean value of all the results for Time/Body/Accelerometer for the X axial               
+[55] "Frequency_BodyGyroscope_Mean-X" - the mean value of all the results for Time/Body/Accelerometer for the X axial                                      
+[56] "Frequency_BodyGyroscope_Mean-Y" - the mean value of all the results for Time/Body/Accelerometer for the X axial                                      
+[57] "Frequency_BodyGyroscope_Mean-Z" - the mean value of all the results for Time/Body/Accelerometer for the X axial                                      
+[58] "Frequency_BodyGyroscope_Standard_Deviation-X" - the mean value of all the results for Time/Body/Accelerometer for the X axial                        
+[59] "Frequency_BodyGyroscope_Standard_Deviation-Y" - the mean value of all the results for Time/Body/Accelerometer for the X axial                        
+[60] "Frequency_BodyGyroscope_Standard_Deviation-Z" - the mean value of all the results for Time/Body/Accelerometer for the X axial                        
+[61] "Frequency_BodyAccelerometer_Magnitude_Mean" - the mean value of all the results for Time/Body/Accelerometer for the X axial                          
+[62] "Frequency_BodyAccelerometer_Magnitude_Standard_Deviation" - the mean value of all the results for Time/Body/Accelerometer for the X axial            
+[63] "Frequency_BodyBodyAccelerometer_Jerk_Magnitude_Mean" - the mean value of all the results for Time/Body/Accelerometer for the X axial                 
+[64] "Frequency_BodyBodyAccelerometer_Jerk_Magnitude_Standard_Deviation" - the mean value of all the results for Time/Body/Accelerometer for the X axial   
+[65] "Frequency_BodyBodyGyroscope_Magnitude_Mean" - the mean value of all the results for Time/Body/Accelerometer for the X axial                          
+[66] "Frequency_BodyBodyGyroscope_Magnitude_Standard_Deviation" - the mean value of all the results for Time/Body/Accelerometer for the X axial            
+[67] "Frequency_BodyBodyGyroscope_Jerk_Magnitude_Mean" - the mean value of all the results for Time/Body/Accelerometer for the X axial                     
+[68] "Frequency_BodyBodyGyroscope_Jerk_Magnitude_Standard_Deviation" - the mean value of all the results for Time/Body/Accelerometer for the X axial       
+[69] "activityname" - the full name of the activity  
